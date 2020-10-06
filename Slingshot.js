@@ -44,5 +44,7 @@ class SlingShot{
             pop()
         }
     }
-    
+    attach(body1){
+        this.sling.bodyA=body1
+    }
 }
